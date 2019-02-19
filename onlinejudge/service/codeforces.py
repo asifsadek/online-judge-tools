@@ -77,8 +77,8 @@ class CodeforcesService(onlinejudge.type.Service):
 # NOTE: Codeforces has its API: https://codeforces.com/api/help
 class CodeforcesProblem(onlinejudge.type.Problem):
     """
-    :ivar contest_id: :py:class:`str`
-    :ivar index: :py:class:`int`
+    :ivar contest_id: :py:class:`int`
+    :ivar index: :py:class:`str`
     :ivar kind: :py:class:`str` must be `contest` or `gym`
     """
 
